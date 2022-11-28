@@ -1,6 +1,8 @@
 body{
     background-color: rgb(44, 27, 4);
     color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
 }
 .center{
     /* width: 100%;
@@ -13,4 +15,7 @@ body{
 }
 .green{
     background-color: rgb(85, 77, 3);
+}
+.mt{
+    margin-top: 10px;
 }

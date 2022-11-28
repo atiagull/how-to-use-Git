@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <title>How-to-use-git</title>
 </head>
 <body class="center">
@@ -14,8 +17,50 @@
         <p class="green"> create an new Repository by clicking on "+" symbol<br> add Repository name and title. </p>
         <div >
             <img src="Images/create-repo.png" />
-
         </div>
     </section>
+    <section class="mt">
+        <h2>Initialize Repository</h2>
+        <p class="green"> Open git bash in folder where you want to initialize git<br> type: git init <br> it will initilze git.</p>
+        <div >
+            <img src="Images/git-init.png" />
+        </div>
+    </section>
+
+    <section class="mt">
+        <h2>Configure Name and email</h2>
+        <p class="green"> cofigure your name and email if using git for first time type:<br>
+        git --global user.name yourName<br>
+        git --global user.email yourEmail
+        </p>
+        <div >
+            <img src="Images/name-config.png" />
+        </div>
+    </section>
+
+    <section class="mt">
+        <h2>Adding Files to Staging Area</h2>
+        <p class="green"> 
+            Add files to local Repository staging area by typing:<br>
+            git add filename<br>
+            or to add all files at once:<br>
+            git add .
+        </p>
+        <div >
+            <img src="Images/git-add.png" />
+        </div>
+    </section>
+
+    <section class="mt">
+        <h2>Commiting Changes on Local Repository</h2>
+        <p class="green"> 
+            Commit changes to local Repository by typing:<br>
+            git commit -m "your commit message here."
+        </p>
+        <div >
+            <img src="Images/commit.png" />
+        </div>
+    </section>
+
 </body>
 </html>
