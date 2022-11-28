@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(44, 27, 4);
+    color: antiquewhite;
+}
+.center{
+    /* width: 100%;
+    align-content: center; */
+    align-self: center;
+    text-align: center;
+}
+.brown{
+    background-color: rgb(80, 4, 4);
+}
+.green{
+    background-color: rgb(85, 77, 3);
+}
